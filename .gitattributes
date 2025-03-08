@@ -1,2 +1,19 @@
-# Auto detect text files and perform LF normalization
+# Automatically handle line endings for all files
 * text=auto
+
+# Treat specific files as binary (to prevent Git from modifying them)
+gradlew binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.bin binary
+
+# Ensure shell scripts use LF line endings
+*.sh text eol=lf
+
+# Ensure YAML files use LF line endings
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Ensure Markdown files use LF line endings
+*.md text eol=lf
