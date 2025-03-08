@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 
 
 * text=auto
 
 gradlew text eol=lf
+=======
+# Auto detect text files and perform LF normalization
+* text=auto
+>>>>>>> f844e6f (Initial commit)
