@@ -16,4 +16,4 @@ gradlew binary
 *.yaml text eol=lf
 
 # Ensure Markdown files use LF line endings
-*.md text eol=lf
+*.md text eol=lfgit push origin main
